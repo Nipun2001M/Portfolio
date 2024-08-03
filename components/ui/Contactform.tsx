@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-export default function ContactForm() {
+export default function Contactform() {
 //   async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
 //     event.preventDefault();
 //     const formData = new FormData(event.currentTarget);
