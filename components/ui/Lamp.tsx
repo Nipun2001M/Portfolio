@@ -5,7 +5,7 @@ import { cn } from "@/utils/cn";
 
 export function LampDemo() {
   return (
-    <LampContainer >
+    <LampContainer>
       <motion.h1
         initial={{ opacity: 0.5, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -16,29 +16,49 @@ export function LampDemo() {
         }}
         className=" bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-       My Tech Skills
+        My Tech Skills
       </motion.h1>
-  
+
       <div className=" relative top-20  ">
-     <div className="flex flex-col ">
-        <div className="flex flex-row  justify-between flex-wrap  ">
-          {[{icon:'/re.svg',name:"React Js"},{icon:'/html.svg',name:'HTML'},{icon:'/css.svg',name:'CSS'},{icon:'/tail.svg',name:'Tailwind'},{icon:'materialui.svg',name:'MUI'},{icon:'/nodejs.svg',name:'Node js'},{icon:'/cl.svg',name:"C"},{icon:'/java.svg',name:'Java'},{icon:'/python.svg',name:'Python'},{icon:'/js.svg',name:'Java Script'},{icon:'/mysql.svg',name:'MySql'},{icon:'/mssql.svg',name:"MSSql"},{icon:'/oracle2.svg',name:'OracleDB'},{icon:'/mongo.svg',name:'MongoDB'},{icon:'/next.svg',name:'Next.js'}].map((t)=>(
-            <div className="mt-5 ml-5  overflow-hidden rounded-2xl  hover:shadow-xl  p-2 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col  w-[10rem]   "
-            style={{
-             background: "rgb(2,0,36)",
-             backgroundColor:
-               " linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,17,1) 35%, rgba(90,105,227,1) 100%)",
-           }}
-           ><div className="flex flex-row justify-between items-center">
-             <img
-           className="rounded-full bg-black-100 lg:w-10 lg:h-10 w-5 h-5 flex justify-center items-center border-white"
-           src={t.icon}></img><span className="ml-3">{t.name}</span>
-            </div> </div>
-          ))}
-         
-        
-        </div>
-        {/* <div className="flex flex-row justify-between  relative top-5 ">
+        <div className="flex flex-col ">
+          <div className="flex flex-row  justify-between flex-wrap  ">
+            {[
+              { icon: "/re.svg", name: "React Js" },
+              { icon: "/html.svg", name: "HTML" },
+              { icon: "/css.svg", name: "CSS" },
+              { icon: "/tail.svg", name: "Tailwind" },
+              { icon: "materialui.svg", name: "MUI" },
+              { icon: "/nodejs.svg", name: "Node js" },
+              { icon: "/cl.svg", name: "C" },
+              { icon: "/java.svg", name: "Java" },
+              { icon: "/python.svg", name: "Python" },
+              { icon: "/js.svg", name: "Java Script" },
+              { icon: "/mysql.svg", name: "MySql" },
+              { icon: "/mssql.svg", name: "MSSql" },
+              { icon: "/oracle2.svg", name: "OracleDB" },
+              { icon: "/mongo.svg", name: "MongoDB" },
+              { icon: "/next.svg", name: "Next.js" },
+            ].map((t) => (
+              <div
+              key={t.name}
+                className="mt-5 ml-5  overflow-hidden rounded-2xl  hover:shadow-xl  p-2 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col  w-[10rem]   "
+                style={{
+                  background: "rgb(2,0,36)",
+                  backgroundColor:
+                    " linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,17,1) 35%, rgba(90,105,227,1) 100%)",
+                }}
+              >
+                <div className="flex flex-row justify-between items-center">
+                  <img
+                    className="rounded-full bg-black-100 lg:w-10 lg:h-10 w-5 h-5 flex justify-center items-center border-white"
+                    src={t.icon}
+                  ></img>
+                  <span className="ml-3">{t.name}</span>
+                </div>{" "}
+              </div>
+            ))}
+          </div>
+          {/* <div className="flex flex-row justify-between  relative top-5 ">
       
          {[{icon:'/nodejs.svg',name:'Node js'},{icon:'/cl.svg',name:"C"},{icon:'/java.svg',name:'Java'},{icon:'/python.svg',name:'Python'},{icon:'/js.svg',name:'Java Script'},{icon:'/mysql.svg',name:'MySql'},{icon:'/mssql.svg',name:"MSSql"},{icon:'/oracle2.svg',name:'OracleDB'},{icon:'/mongo.svg',name:'MongoDB'}].map((t)=>(
             <div className=" overflow-hidden rounded-2xl  hover:shadow-xl  p-2 dark:bg-black dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col  w-[10rem]   "
@@ -72,9 +92,8 @@ export function LampDemo() {
             </div> </div>
           ))}
         </div> */}
+        </div>
       </div>
-     </div>
-    
     </LampContainer>
   );
 }
@@ -93,7 +112,6 @@ export const LampContainer = ({
         className
       )}
     >
-      
       <div className="relative flex w-full   flex-1 scale-y-125 items-center justify-center isolate z-0 p-0">
         <motion.div
           initial={{ opacity: 0.5, width: "15rem" }}

@@ -1,6 +1,7 @@
 // import React from 'react'
 
-import ContactForm from "./ui/contactform";
+// import ContactForm from "./ui/contactform";
+// import Contactform from "./ui/contactform";
 
 const Contact = () => {
  
