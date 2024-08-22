@@ -67,7 +67,7 @@ const Technology1 = () => {
                     " linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(6,6,17,1) 35%, rgba(90,105,227,1) 100%)",
                 }}
               >
-                <div className="flex flex-row justify-center items-center">
+                <div className="flex flex-row justify-between items-center">
                   <img
                     className="rounded-full bg-black-100 lg:w-10 lg:h-10 w-5 h-5 flex justify-center items-center border-white"
                     src={t.icon}
@@ -111,7 +111,7 @@ const Technology1 = () => {
           </div>
 
         </div>
-        <div className="flex flex-col align-middle justify-center text-center">
+        <div className="flex flex-col align-middle justify-between text-center">
           
         <h2 className="text-lg">
         Data 
