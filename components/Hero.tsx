@@ -41,6 +41,7 @@ const Hero = () => {
            
            <TextGenerateEffect
            className='text-center text-[50px] md:text-5xl lg:text-8xl '
+          //  words="මම නිපුන් පකද බලන්නෙ"
            words="Hello, I'm Nipun Madhushan "
 
            />
