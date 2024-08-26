@@ -29,7 +29,7 @@ const RecentProjects = () => {
 
                             </div>
                             <img src={project.img}
-                            className='z-10 absolute bottom-0'
+                            className='z-10 absolute bottom-0 '
                             ></img>
                         </div>
                         <h1  className='

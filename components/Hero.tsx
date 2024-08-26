@@ -41,15 +41,14 @@ const Hero = () => {
            
            <TextGenerateEffect
            className='text-center text-[50px] md:text-5xl lg:text-8xl '
-          //  words="මම නිපුන් පකද බලන්නෙ"
+          
            words="Hello, I'm Nipun Madhushan "
 
            />
            {/* <img src='/myimage2.png' className='w-[25rem] h-[25rem] mb-0 pb-0 '></img> */}
            <p className='text-center md:tracking-wider
-           mb-6 text-small md:text-large  lg:text-2xl   '>
-            Welcome to My Personal Website
-
+           mb-6 text-small md:text-large  lg:text-xl   '>
+          A full-stack developer passionate about creating efficient web applications.
            </p> 
            
           
