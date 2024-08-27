@@ -105,6 +105,14 @@ export const projects = [
     iconLists: ["/next.svg",  "/tail.svg", "/ts.svg",  ],
     link: "https://github.com/adrianhajdin/iphone",
   },
+  {
+    id: 4,
+    title: "CarePulse Appointment Managent System",
+    des: "Hospital patient appointments management system created using Next.js. Patients can register in the system and make appointments. Administrators can view all appointments and reschedule or cancel appointments in the admin dashboard.",
+    img: "/carepulse.png",
+    iconLists: ["/next.svg",  "/tail.svg", "/ts.svg",  ],
+    link: "https://github.com/adrianhajdin/iphone",
+  },
 ];
 
 
