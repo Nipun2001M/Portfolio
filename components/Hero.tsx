@@ -47,7 +47,7 @@ const Hero = () => {
            />
            {/* <img src='/myimage2.png' className='w-[25rem] h-[25rem] mb-0 pb-0 '></img> */}
            <p className='text-center md:tracking-wider
-           mb-6 text-small md:text-large  lg:text-xl   '>
+           mb-6 text-small md:text-large  lg:text-xl mt-3   '>
           A full-stack developer passionate about creating efficient web applications.
            </p> 
            
